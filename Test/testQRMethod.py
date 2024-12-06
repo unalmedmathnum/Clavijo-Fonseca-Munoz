@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0, '..')
 
 import numpy as np
-import QRDecomposition
+from QR_met import QRDecomposition
 
 #casos de prueba
 test = {"A": np.array([[2, 1], [3, 4]]),
