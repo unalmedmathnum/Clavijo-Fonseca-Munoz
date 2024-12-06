@@ -51,11 +51,11 @@ def Newton_method(polinomio, p_0: float, tolerancia: float = 0.001, max_number_i
     while i <= max_number_iter: # Se hacen las N iteraciones que se hayan declarado
 
         p = float(p_0 - f_evaluada(polinomio,p_0)/fdx_evaluada(polinomio,p_0)) # Se aproxima el valor de la nueva iteración
-        if abs(p-p_0)<tolerancia: # Se verifica si la diferencia entre la nueva iteriacion y la anterior es menor a la tolerancia declarada
+        if abs(p-p_0)<tolerancia: # Se verifica si la diferencia entre la nueva iteriación y la anterior es menor a la tolerancia declarada
             return p # Si esto ocurre, se retorna el valor de la iteracion
 
         i += 1  #Se incrementa el contador por cada iteración
         p_0 = p # Se actualiza el valor de la iteración anterior, con el valor de la nueva iteración
 
-    # Si el error no es menor que la tolerancia al cabo de las N, se retorna lo siguiente.
+    # Si el error no es menor que la tolerancia al cabo de las N iteraciones, se retorna lo siguiente.
     return f"El método falló después de las {max_number_iter}"
