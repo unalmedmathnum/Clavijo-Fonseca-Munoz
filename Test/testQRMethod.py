@@ -2,7 +2,7 @@ import sys
 sys.path.insert(0, '..')
 
 import numpy as np
-from QR_met import QRDecomposition
+import QR_met
 
 #casos de prueba
 test = {"A": np.array([[2, 1], [3, 4]]),
@@ -16,5 +16,5 @@ test = {"A": np.array([[2, 1], [3, 4]]),
 
 for nombre, matriz in test.items(): #Creamos un ciclo que recorre el diccionario y va probando cada caso
   print(f"Los valores propios de la matriz {nombre} son:")
-  print(QRDecomposition(matriz)) #Utilizamos la funcion QRDecomposition e imprimimos cada valor propio
+  print(QR_met.QRDecomposition(matriz)) #Utilizamos la funcion QRDecomposition e imprimimos cada valor propio
   print()
