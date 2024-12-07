@@ -6,7 +6,7 @@ Integrantes:
 -Richard Munoz Henao
 
 Instrucciones:
-En los archivos ipynb se puede ver detalladamente todas las tareas asignadas para cada metodo incluyendo la implementacion y los test.
+En el archivo tareaAnalisisNumerico1.pdf se puede ver detalladamente todas las tareas asignadas para cada metodo incluyendo la implementacion y los test.
 
 Instrucciones para ejecutar los test:
 Recomendamos usar un venv para instalar los requirements para evitar incompatibilidades.
