@@ -1,4 +1,4 @@
-# Clavijo-Fonseca-Munoz
+# Clavijo-Fonseca-Muñoz
 
 Integrantes:
 -Juan David Clavijo Fernandez
